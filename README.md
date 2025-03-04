@@ -20,4 +20,4 @@
 
 ## 제2주차(Ordinary Least Squares Revisted)
  
--  [코드 #2](https://github.com/hxk271/QASS/blob/main/W02.do)
+-  [코드 #2](https://github.com/hxk271/CatData/blob/main/W02.do)
