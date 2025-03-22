@@ -15,6 +15,8 @@
 
 ## 제1주차(Course Introduction)
 
+-  [**A섹션: 강의 소개**](https://github.com/hxk271/SocStats/blob/main/Beamer_범주형자료분석_W01A.pdf)
+
 
 <br/>
 
