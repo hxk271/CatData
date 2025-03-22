@@ -15,7 +15,7 @@
 
 ## 제1주차(Course Introduction)
 
--  [**A섹션: 강의 소개**](https://github.com/hxk271/SocStats/blob/main/Beamer_범주형자료분석_W01.pdf)
+-  [**A섹션: 강의 소개**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W01.pdf)
 
 
 <br/>
@@ -23,3 +23,12 @@
 ## 제2주차(Ordinary Least Squares Revisted)
  
 -  [코드 #2](https://github.com/hxk271/CatData/blob/main/W02.do)
+
+
+<br/>
+
+## 제3주차(Basics in Logit and Probit Models)
+ 
+-  [**A섹션: 강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W02.pdf)
+-  
+-  [코드 #3](https://github.com/hxk271/CatData/blob/main/W03.do)
