@@ -32,3 +32,12 @@
 -  [**A섹션: 강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W03.pdf)
 
 -  [코드 #3](https://github.com/hxk271/CatData/blob/main/W03.do)
+
+
+<br/>
+
+## 제4주차(Applications in Logit and Probit Models)
+ 
+-  [**A섹션: 강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W04.pdf)
+
+-  [코드 #3](https://github.com/hxk271/CatData/blob/main/W04.do)
