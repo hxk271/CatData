@@ -57,12 +57,6 @@
 	*classification table or confusion matrix (p. 65)
 	estat class
 	
-	*sensitivity-specificity trade-off
-	lsens
-	
-	*roc (receiver operating characteristic) curve
-	lroc
-	
 	*so-called "pseudo-r2"
 	eret list
 	di 1-(e(ll) / e(ll_0))    //mcfadden's
