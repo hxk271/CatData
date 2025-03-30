@@ -93,7 +93,18 @@
 	
 	
 *alternative regression models
-
+	
+	*introduction to probit model
+	di normal(1.96)       //Phi(z)=p
+	di invnormal(.975)    //Phi^(-1)(p)=z
+	
+	*interpretation of probit model
+	probit pass b1.sex
+	scalar z=_b[2.sex]*1+_b[_cons]     //z
+	di z
+	di normal(z)
+	margins, by(sex)
+	
 	*logit, probit, and complementary log-log
 	est clear
 	eststo: logit pass sc lc b2.sex b4.race science
@@ -107,4 +118,3 @@
 	marginsplot, name(g3, replace) recast(bar)
 	esttab, nogap wide
 	graph combine g1 g2 g3, col(3) ycommon
-	
