@@ -57,9 +57,11 @@
 	*classification table or confusion matrix (p. 65)
 	estat class
 	
-	*so-called "pseudo-r2"
-	eret list
-	di 1-(e(ll) / e(ll_0))    //mcfadden's
+	*roc (receiver operating characteristic) curve
+	lroc
+	
+	*sensitivity-specificity trade-off
+	lsens
 	
 	*likelihood-ratio test 
 	scalar lr=-2*(e(ll_0)-e(ll))
@@ -77,6 +79,10 @@
 	estat class
 	lrtest m1 m2, stats
 	esttab, nogap wide
+	
+	*so-called "pseudo-r2"
+	eret list
+	di 1-(e(ll) / e(ll_0))    //mcfadden's
 
 	*aic
 	logit pass sc lc b2.sex b4.race science
@@ -87,34 +93,3 @@
 	*predicted probability (pp. 69-70)
 	logit pass sc lc b2.sex b4.race science
 	margins, at(race=1 sc=15 lc=17 science=56.37)
-		
-	
-	
-	
-	
-*alternative regression models
-	
-	*introduction to probit model
-	di normal(1.96)       //Phi(z)=p
-	di invnormal(.975)    //Phi^(-1)(p)=z
-	
-	*interpretation of probit model
-	probit pass b1.sex
-	scalar z=_b[2.sex]*1+_b[_cons]     //z
-	di z
-	di normal(z)
-	margins, by(sex)
-	
-	*logit, probit, and complementary log-log
-	est clear
-	eststo: logit pass sc lc b2.sex b4.race science
-	margins, by(race)
-	marginsplot, name(g1, replace) recast(bar)
-	eststo: probit pass sc lc b2.sex b4.race science
-	margins, by(race)
-	marginsplot, name(g2, replace) recast(bar)
-	eststo: cloglog pass sc lc b2.sex b4.race science
-	margins, by(race)
-	marginsplot, name(g3, replace) recast(bar)
-	esttab, nogap wide
-	graph combine g1 g2 g3, col(3) ycommon
