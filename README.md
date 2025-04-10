@@ -5,7 +5,7 @@
 # 범주형 자료분석 (충북대학교 사회학과 2025년 1학기)
 
 
-이 레파지토리에는 대학원 범주형 자료분석 강의안이 담겨 있습니다. 이 수업에 관한 보다 자세한 설명은 [실라버스](https://github.com/hxk271/Syllabi/blob/main/8969001(2025-1).pdf)를 참고하세요. 비슷한 강의를 개설하시는 선생님들께도 참고가 되기를 바랍니다. 자유로이 나누어 보셔도 되지만 상업적 이용은 불허하고 있습니다.
+이 레파지토리에는 대학원 범주형 자료분석 강의안이 담겨 있습니다. 이 수업에 관한 보다 자세한 설명은 [실라버스](https://github.com/hxk271/Syllabi/blob/main/8969087(2025-1).pdf)를 참고하세요. 비슷한 강의를 개설하시는 선생님들께도 참고가 되기를 바랍니다. 자유로이 나누어 보셔도 되지만 상업적 이용은 불허하고 있습니다.
 
 교재는 『Regression Models for Categorical Dependent Variables Using Stata』([**링크**](https://www.stata.com/bookstore/regression-models-categorical-dependent-variables/))와 『이항 및 다항 로지스틱 회귀분석』([**링크**](https://product.kyobobook.co.kr/detail/S000001281540))을 사용하고 있습니다. 다른 교재를 참고해도 무방합니다.
 
