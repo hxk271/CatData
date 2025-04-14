@@ -46,3 +46,12 @@
 ## 제5주차(Applications in Logit and Probit Models)
  
 -  [코드 #5](https://github.com/hxk271/CatData/blob/main/W05.do)
+
+
+<br/>
+
+## 제6주차(Cautionary Notes about Nonlinear Models)
+ 
+-  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W06.pdf)
+
+-  [코드 #6](https://github.com/hxk271/CatData/blob/main/W06.do)
