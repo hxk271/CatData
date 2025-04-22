@@ -55,3 +55,12 @@
 -  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W06.pdf)
 
 -  [코드 #6](https://github.com/hxk271/CatData/blob/main/W06.do)
+
+
+<br/>
+
+## 제7주차(Models for Nominal Outcomes I)
+ 
+-  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W07.pdf)
+
+-  [코드 #7](https://github.com/hxk271/CatData/blob/main/W07.do)
