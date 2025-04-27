@@ -64,3 +64,18 @@
 -  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W07.pdf)
 
 -  [코드 #7](https://github.com/hxk271/CatData/blob/main/W07.do)
+
+
+<br/>
+
+## 제8주차(Midterm)
+
+
+<br/>
+
+## 제9주차(Models for Nominal Outcomes II)
+ 
+-  [코드 #9](https://github.com/hxk271/CatData/blob/main/W09.do)
+
+
+
