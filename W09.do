@@ -81,7 +81,6 @@
 
 *multinomial probit
 
-
 	*model comparison
 	est clear
 	eststo: mlogit insure age male i.nonwhite i.site, base(3)
@@ -93,3 +92,20 @@
 	esttab, nogap wide   //did not 'unstack'
 	
 	graph combine g1 g2
+
+	
+	
+*reduction to binary logit or probit
+
+	*
+	fre insure
+	drop if insure==3
+	replace insure=insure-1
+	
+	*logit family
+	mlogit insure age male i.nonwhite i.site, base(0)
+	logit insure age male i.nonwhite i.site
+	
+	*probit family: slightly different but largely same, due to ML method
+	mprobit insure age male i.nonwhite i.site, base(0)
+	probit insure age male i.nonwhite i.site
