@@ -78,4 +78,13 @@
 -  [코드 #9](https://github.com/hxk271/CatData/blob/main/W09.do)
 
 
+<br/>
+
+## 제10주차(Models for Ordinal Outcomes I)
+ 
+-  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W10.pdf)
+
+-  [코드 #10](https://github.com/hxk271/CatData/blob/main/W10.do)
+
+
 
