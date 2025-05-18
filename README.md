@@ -87,4 +87,15 @@
 -  [코드 #10](https://github.com/hxk271/CatData/blob/main/W10.do)
 
 
+<br/>
 
+## 제11주차(Models for Ordinal Outcomes II)
+ 
+-  [코드 #11](https://github.com/hxk271/CatData/blob/main/W11.do)
+
+
+<br/>
+
+## 제11주차(Applications in Proportional-Odds Models)
+ 
+-  [코드 #12](https://github.com/hxk271/CatData/blob/main/W12.do)
