@@ -96,6 +96,29 @@
 
 <br/>
 
-## 제11주차(Applications in Proportional-Odds Models)
+## 제12주차(Applications in Proportional-Odds Models)
  
 -  [코드 #12](https://github.com/hxk271/CatData/blob/main/W12.do)
+
+
+<br/>
+
+## 제13주차(Count Models)
+ 
+-  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W13.pdf)
+ 
+-  [코드 #13](https://github.com/hxk271/CatData/blob/main/W13.do)
+  
+
+<br/>
+
+## 제14주차(Models for Truncated or Censored Outcomes)
+ 
+-  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W14.pdf)
+ 
+-  [코드 #14](https://github.com/hxk271/CatData/blob/main/W14.do)
+
+
+<br/>
+
+## 제15주차(Final)
