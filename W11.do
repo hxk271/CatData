@@ -47,17 +47,6 @@
 	*information criteria
 	estat ic
 	
-	*hosmer-lemeshow goodness-of-fit
-	ologit health female black age diabetes
-	ologitgof, osvar(oscore) tableHL
-	
-	predict pr1-pr5, pr       //so-called "ordinal scores"
-	gen E=1*pr1+2*pr2+3*pr3+4*pr4+5*pr5
-	gen O=health
-	gen chisq=((O-E)^2)/E
-	egen tot=total(chisq)
-	di 1-chi2(35, tot)
-	
 	
 	
 	
@@ -161,22 +150,3 @@
 	*compare with the multinomial logit model
 	gologit2 health female black age
 	mlogit health female black age, b(1)
-
-	
-
-*which one to be chosen
-
-	*goodness of fit indices
-	ologit health female black age
-	estat ic
-	di -2*(e(ll_0) - e(ll))        // deviance of ordered logit
-	reg health female black age
-	estat ic
-	di -2*(e(ll_0) - e(ll))        // deviance of ols
-	
-	*joint test of statistical significance for cutpoints
-	ologit health female black age
-	test (_b[/cut1]=0) (_b[/cut2]=0) (_b[/cut3]=0) (_b[/cut4]=0)
-	
-	
-	
