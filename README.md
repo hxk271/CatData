@@ -96,7 +96,7 @@
 
 <br/>
 
-## 제12주차(Applications in Proportional-Odds Models)
+## 제12주차(Applications in Proportional Odds Models)
  
 -  [**강의안**](https://github.com/hxk271/CatData/blob/main/Beamer_범주형자료분석_W12.pdf)
 
